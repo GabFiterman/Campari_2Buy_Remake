@@ -1,0 +1,16 @@
+:root {
+    --font-style-main: 'Poppins', 'Helvetica', 'Arial', sans-serif;
+
+    --font-size-titles: 2rem;
+    --font-size-subtitles: 1.3rem;
+    --font-size-text: 1rem;
+    --font-size-sideText: 0.65rem;
+
+    --color-main: #041E42;
+    --color-lightGrey: #F3F3F3;
+}
+
+body {
+    font-family: var(--font-style-main);
+    font-size: var(--font-size-text);
+}
