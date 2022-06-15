@@ -1,5 +1,5 @@
 :root {
-    --font-style-main: 'Poppins', 'Helvetica', 'Arial', sans-serif;
+    --font-family-main: 'Open Sans', 'Poppins', 'Helvetica', 'Arial', sans-serif;
 
     --font-size-titles: 2rem;
     --font-size-subtitles: 1.3rem;
@@ -8,9 +8,28 @@
 
     --color-main: #041E42;
     --color-lightGrey: #F3F3F3;
+    --color-grey: #87888C;
+    --color-darkGrey: #444444;
 }
 
 body {
-    font-family: var(--font-style-main);
-    font-size: var(--font-size-text);
+    font-family: var(--font-family-main);
+    font-size: 1rem
+}
+
+.title {
+    font-size: var(--font-size-titles);
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.button {
+    background-color: var(--color-main);
+    color: var(--color-lightGrey);
+    padding: 0.75rem 1rem;
+}
+
+.button:hover {
+    cursor: pointer;
+    filter: brightness(1.4);
 }

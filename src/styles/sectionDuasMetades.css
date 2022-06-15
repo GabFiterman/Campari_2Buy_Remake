@@ -1,0 +1,75 @@
+.duasMetades__text {
+    font-size: calc(var(--font-size-text) + 0.1rem);
+    color: var(--color-grey);
+    max-width: 46%;
+    line-height: 1.8rem;
+    margin-bottom: 2.5rem;
+}
+
+.duasMetades__content {
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.intro__content-video {
+    height: 450px;
+}
+
+.title__sugestion {
+    margin-bottom: 2rem;
+}
+
+.carousel-item img {
+    border-radius: 0.65rem;
+}
+
+.sugestion {
+    margin-bottom: 5rem;
+}
+
+.classic {
+    background-color: var(--color-lightGrey);
+    border: 1px solid #dfe4f2;
+    border-radius: 1rem;
+    padding-bottom: 5rem;
+    margin-bottom: 8rem;
+}
+
+.classic__title {
+    margin-top: 5rem;
+}
+
+.classic__text {
+    font-size: calc(var(--font-size-text));
+    color: var(--color-grey);
+    line-height: 1.8rem;
+    margin-bottom: 2.5rem;
+}
+
+.offers {}
+
+.offers__title {
+    margin-bottom: 2rem;
+}
+
+.offers__row {
+    margin-bottom: 2rem;
+}
+
+.discover__img {
+    margin-bottom: 4rem;
+}
+
+.footer {
+    background-color: var(--color-main);
+    min-height: 6rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__text {
+    color: white;
+    font-size: 0.75rem;
+    padding-top: 3rem;
+    text-align: center;
+}
