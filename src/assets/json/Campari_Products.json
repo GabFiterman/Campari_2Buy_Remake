@@ -1,0 +1,86 @@
+{
+	"products": [
+		{
+			"productId": "01",
+			"name": "aperol_750_ml",
+			"price": "54,23",
+			"image": "https://i.imgur.com/DtS2Bgy.jpg",
+			"redirect_link": "#"
+		},
+		{
+			"productId": "02",
+			"name": "Bitter_Campari_900ml",
+			"price": "48,51",
+			"image": "https://i.imgur.com/tvC8ObR.jpg",
+			"redirect_link": "#"
+		},
+		{
+			"productId": "03",
+			"name": "Bitter_Negroni_Campari_500ml",
+			"price": "134,00",
+			"image": "https://i.imgur.com/IdsY7PX.jpg",
+			"redirect_link": "#"
+		},
+		{
+			"productId": "04",
+			"name": "Cinzano_Pro_Spritz_750ml",
+			"price": "48,50",
+			"image": "https://i.imgur.com/8yll07A.jpg",
+			"redirect_link": "#"
+		},
+		{
+			"productId": "05",
+			"name": "Combo_Aperol_Spritz",
+			"price": "106,80",
+			"image": "https://i.imgur.com/sgzX5On.jpg",
+			"redirect_link": "#"
+		},
+		{
+			"productId": "06",
+			"name": "gin_london_dry_bulldog_750ml",
+			"price": "149,90",
+			"image": "https://i.imgur.com/Zub5NYx.jpg",
+			"redirect_link": "#"
+		},
+		{
+			"productId": "07",
+			"name": "Vermute_Cinzano_Rosso_1000ml",
+			"price": "32,68",
+			"image": "https://i.imgur.com/cTsy62f.jpg",
+			"redirect_link": "#"
+		},
+		{
+			"productId": "08",
+			"name": "Whisky_Wild_Turkey_Original_1000ml",
+			"price": "194,90",
+			"image": "https://i.imgur.com/irt4HD6.jpg",
+			"redirectLink": "#"
+		}
+	],
+	"assets": [
+		{
+			"assetId": "01",
+			"name": "hero_banner",
+			"type": "image",
+			"content": "https://i.imgur.com/Zl713AI.jpg"
+		},
+		{
+			"assetId": "02",
+			"name": "banner_aperol_desktop",
+			"type": "image",
+			"content": "https://i.imgur.com/ABRTsXd.jpg"
+		},
+		{
+			"assetId": "03",
+			"name": "banner_campari_negroni_desktops",
+			"type": "image",
+			"content": "https://i.imgur.com/1MrGGhC.jpg"
+		},
+		{
+			"assetId": "04",
+			"name": "destaque_negrone",
+			"type": "image",
+			"content": "https://imgur.com/la3Fhlj"
+		}
+	]
+}

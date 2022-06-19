@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Campari - 2Buy</title>
+
+    <!-- GOOGLE FONTS -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet"> -->
+
+    <!-- STYLES -->
+    <!-- <link rel="stylesheet" href="./styles/_reset.css"> -->
+    <link rel="stylesheet" href="./styles/bootstrap.css">
+    <link rel="stylesheet" href="./styles/rootStyle.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/sectionDuasMetades.css">
+    <link rel="stylesheet" href="./styles/productCard.css">
+</head>
+
+<body>
+    <div id="app">
+        <!-- Hero Banner -->
+        <hero-banner>
+            <!-- <header>
+                <img class="header__heroBanner" src="./assets/img/hero_banner.jpg"
+                    alt="Banner: A originalidade dos clássicos na sua casa">
+            </header> -->
+        </hero-banner>
+
+
+        <!-- Duas metades se completam -->
+        <section class="container">
+            <div class="row">
+                <h1 class="title">Duas metades se completam</h1>
+            </div>
+            <div class="row">
+                <p class="duasMetades__text">Para curtir com os amigos e com a família, <strong>Aperol Spritz</strong>
+                    é perfeito para momentos leves e descomplicados.</p>
+            </div>
+            <div class="row duasMetades__content">
+                <iframe class="col col-8 intro__content-video" src="https://www.youtube.com/embed/Kz6WnrHOuv0"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+                <div class="col"></div>
+
+                <div class="col col-3 product__card">
+                    <div class="product__card__main">
+                        <img class="product__card__main-image" src="./assets/img/aperol_750_ml.jpg">
+                        <h3 class="product__card__main-name">Aperitivo Aperol 750ml - Spritz</h3>
+                    </div>
+                    <div class="product__card__info">
+                        <div class="product__card__info-price">
+                            <p class="product__card__info-price-text">A partir de</p>
+                            <h2 class="product__card__info-price-price">R$ 54,23</h2>
+                        </div>
+                        <button class="button product__card__info-button" type="button">Ver Ofertas</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Para acompanhar o drink -> Carrossel -->
+        <article class="container sugestion">
+            <div class="row">
+                <h1 class="title title__sugestion">Para acompanhar seu drink</h1>
+            </div>
+
+            <div class="row">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./assets/img/banner_aperol_desktop.jpeg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/img/banner_campari_negroni_desktops.jpeg" class="d-block w-100"
+                                alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+            </div>
+        </article>
+
+        <!-- Destaques -> Para aproveitar um clássico: Negroni -->
+        <div class="classic">
+            <section class="container">
+                <div class="row">
+                    <h1 class="title classic__title">Para aproveitar um clássico: Negroni</h1>
+                </div>
+                <div class="row">
+                    <p class="classic__text">30ml de Campari | 30ml de Gin | 30ml de Vermute Doce | Coloque todos os
+                        ingredientes
+                        diretamente em copo baixo cheio de gelo.</p>
+                </div>
+                <div class="row">
+                    <div class="col col-3 product__card">
+                        <div class="product__card__main">
+                            <img class="product__card__main-image" src="./assets/img/aperol_750_ml.jpg">
+                            <h3 class="product__card__main-name">Aperitivo Aperol 750ml - Spritz</h3>
+                        </div>
+                        <div class="product__card__info">
+                            <div class="product__card__info-price">
+                                <p class="product__card__info-price-text">A partir de</p>
+                                <h2 class="product__card__info-price-price">R$ 54,23</h2>
+                            </div>
+                            <button class="button product__card__info-button" type="button">Ver Ofertas</button>
+                        </div>
+                    </div>
+
+                    <div class="col col-3 product__card">
+                        <div class="product__card__main">
+                            <img class="product__card__main-image" src="./assets/img/aperol_750_ml.jpg">
+                            <h3 class="product__card__main-name">Aperitivo Aperol 750ml - Spritz</h3>
+                        </div>
+                        <div class="product__card__info">
+                            <div class="product__card__info-price">
+                                <p class="product__card__info-price-text">A partir de</p>
+                                <h2 class="product__card__info-price-price">R$ 54,23</h2>
+                            </div>
+                            <button class="button product__card__info-button" type="button">Ver Ofertas</button>
+                        </div>
+                    </div>
+
+                    <div class="col col-3 product__card">
+                        <div class="product__card__main">
+                            <img class="product__card__main-image" src="./assets/img/aperol_750_ml.jpg">
+                            <h3 class="product__card__main-name">Aperitivo Aperol 750ml - Spritz</h3>
+                        </div>
+                        <div class="product__card__info">
+                            <div class="product__card__info-price">
+                                <p class="product__card__info-price-text">A partir de</p>
+                                <h2 class="product__card__info-price-price">R$ 54,23</h2>
+                            </div>
+                            <button class="button product__card__info-button" type="button">Ver Ofertas</button>
+                        </div>
+                    </div>
+
+                    <div class="col col-3 product__card">
+                        <div class="product__card__main">
+                            <img class="product__card__main-image" src="./assets/img/aperol_750_ml.jpg">
+                            <h3 class="product__card__main-name">Aperitivo Aperol 750ml - Spritz</h3>
+                        </div>
+                        <div class="product__card__info">
+                            <div class="product__card__info-price">
+                                <p class="product__card__info-price-text">A partir de</p>
+                                <h2 class="product__card__info-price-price">R$ 54,23</h2>
+                            </div>
+                            <button class="button product__card__info-button" type="button">Ver Ofertas</button>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+
+        <!-- Ofertas -->
+        <div class="offers">
+            <section class="container">
+                <div class="row">
+                    <h1 class="title offers__title">Ofertas</h1>
+                </div>
+
+                <div class="row offers__row">
+                    <div class="col col-3 product__card">
+                        <div class="product__card__main">
+                            <img class="product__card__main-image" src="./assets/img/aperol_750_ml.jpg">
+                            <h3 class="product__card__main-name">Aperitivo Aperol 750ml - Spritz</h3>
+                        </div>
+                        <div class="product__card__info">
+                            <div class="product__card__info-price">
+                                <p class="product__card__info-price-text">A partir de</p>
+                                <h2 class="product__card__info-price-price">R$ 54,23</h2>
+                            </div>
+                            <button class="button product__card__info-button" type="button">Ver Ofertas</button>
+                        </div>
+                    </div>
+
+                    <div class="col col-3 product__card">
+                        <div class="product__card__main">
+                            <img class="product__card__main-image" src="./assets/img/aperol_750_ml.jpg">
+                            <h3 class="product__card__main-name">Aperitivo Aperol 750ml - Spritz</h3>
+                        </div>
+                        <div class="product__card__info">
+                            <div class="product__card__info-price">
+                                <p class="product__card__info-price-text">A partir de</p>
+                                <h2 class="product__card__info-price-price">R$ 54,23</h2>
+                            </div>
+                            <button class="button product__card__info-button" type="button">Ver Ofertas</button>
+                        </div>
+                    </div>
+
+                    <div class="col col-3 product__card">
+                        <div class="product__card__main">
+                            <img class="product__card__main-image" src="./assets/img/aperol_750_ml.jpg">
+                            <h3 class="product__card__main-name">Aperitivo Aperol 750ml - Spritz</h3>
+                        </div>
+                        <div class="product__card__info">
+                            <div class="product__card__info-price">
+                                <p class="product__card__info-price-text">A partir de</p>
+                                <h2 class="product__card__info-price-price">R$ 54,23</h2>
+                            </div>
+                            <button class="button product__card__info-button" type="button">Ver Ofertas</button>
+                        </div>
+                    </div>
+
+                    <div class="col col-3 product__card">
+                        <div class="product__card__main">
+                            <img class="product__card__main-image" src="./assets/img/aperol_750_ml.jpg">
+                            <h3 class="product__card__main-name">Aperitivo Aperol 750ml - Spritz</h3>
+                        </div>
+                        <div class="product__card__info">
+                            <div class="product__card__info-price">
+                                <p class="product__card__info-price-text">A partir de</p>
+                                <h2 class="product__card__info-price-price">R$ 54,23</h2>
+                            </div>
+                            <button class="button product__card__info-button" type="button">Ver Ofertas</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row offers__row">
+                    <div class="col col-3 product__card">
+                        <div class="product__card__main">
+                            <img class="product__card__main-image" src="./assets/img/aperol_750_ml.jpg">
+                            <h3 class="product__card__main-name">Aperitivo Aperol 750ml - Spritz</h3>
+                        </div>
+                        <div class="product__card__info">
+                            <div class="product__card__info-price">
+                                <p class="product__card__info-price-text">A partir de</p>
+                                <h2 class="product__card__info-price-price">R$ 54,23</h2>
+                            </div>
+                            <button class="button product__card__info-button" type="button">Ver Ofertas</button>
+                        </div>
+                    </div>
+
+                    <div class="col col-3 product__card">
+                        <div class="product__card__main">
+                            <img class="product__card__main-image" src="./assets/img/aperol_750_ml.jpg">
+                            <h3 class="product__card__main-name">Aperitivo Aperol 750ml - Spritz</h3>
+                        </div>
+                        <div class="product__card__info">
+                            <div class="product__card__info-price">
+                                <p class="product__card__info-price-text">A partir de</p>
+                                <h2 class="product__card__info-price-price">R$ 54,23</h2>
+                            </div>
+                            <button class="button product__card__info-button" type="button">Ver Ofertas</button>
+                        </div>
+                    </div>
+
+                    <div class="col col-3 product__card">
+                        <div class="product__card__main">
+                            <img class="product__card__main-image" src="./assets/img/aperol_750_ml.jpg">
+                            <h3 class="product__card__main-name">Aperitivo Aperol 750ml - Spritz</h3>
+                        </div>
+                        <div class="product__card__info">
+                            <div class="product__card__info-price">
+                                <p class="product__card__info-price-text">A partir de</p>
+                                <h2 class="product__card__info-price-price">R$ 54,23</h2>
+                            </div>
+                            <button class="button product__card__info-button" type="button">Ver Ofertas</button>
+                        </div>
+                    </div>
+
+                    <div class="col col-3 product__card">
+                        <div class="product__card__main">
+                            <img class="product__card__main-image" src="./assets/img/aperol_750_ml.jpg">
+                            <h3 class="product__card__main-name">Aperitivo Aperol 750ml - Spritz</h3>
+                        </div>
+                        <div class="product__card__info">
+                            <div class="product__card__info-price">
+                                <p class="product__card__info-price-text">A partir de</p>
+                                <h2 class="product__card__info-price-price">R$ 54,23</h2>
+                            </div>
+                            <button class="button product__card__info-button" type="button">Ver Ofertas</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Descubra a campari -->
+        <div class="discorver">
+            <article class="container">
+                <div class="row">
+                    <h1 class="title discorver__title">Descubra a Campari</h1>
+                </div>
+                <div class="row">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nisi tortor, luctus eu consectetur
+                        at,
+                        molestie vitae nulla.</p>
+                </div>
+                <div class="row">
+                    <figure>
+                        <img class="discover__img col-12" src="./assets/img/destaque_negrone.jpg">
+                    </figure>
+                </div>
+            </article>
+        </div>
+
+        <!-- footer -->
+        <footer class="contianer-fluid footer">
+            <p class="footer__text">Powered by Lett</p>
+        </footer>
+    </div>
+
+    <script src="./scripts/bootstrap.js"></script>
+    <script src="./scripts/vue.js"></script>
+    <script src="./scripts/index.js"></script>
+</body>
+
+</html>
