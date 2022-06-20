@@ -49,11 +49,18 @@
 }
 
 .product__card__info-price-price {
-    font-size: 1.35rem;
+    font-size: 1.25rem;
     font-weight: bold;
+}
+
+.product__card__info-price-price span {
+    font-size: 0.85rem;
 }
 
 .product__card__info-button {
     font-size: 0.85rem;
     text-transform: uppercase;
+    border: none;
 }
+
+@media only screen and (max-width: 480px) {}

@@ -134,7 +134,7 @@ const productTemplate = `
         <div class="product__card__info">
             <div class="product__card__info-price">
                 <p class="product__card__info-price-text">A partir de</p>
-                <h2 class="product__card__info-price-price">R$ {{product.price}}</h2>
+                <h2 class="product__card__info-price-price"><span>R$</span>{{product.price}}</h2>
             </div>
             <button class="button product__card__info-button" type="button">Ver Ofertas</button>
         </div>
